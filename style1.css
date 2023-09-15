@@ -1,0 +1,72 @@
+fieldset{
+    margin: auto;
+    width: 80%;
+    position: relative;
+    background-color: rgb(246, 250, 255);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.float-left{
+    padding: 15px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.display-block{
+    display: block;
+}
+label{
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"]{
+    width: 100%;
+}
+p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+select{
+    width: 100%;
+}
+.float-left label {
+    display: inline;
+}
+.button-submit {
+        background-color: rgb(252, 241, 255);
+        color: black; 
+        border-radius: 30px; 
+        padding: 9px 20px; 
+        position: absolute;
+        right: 20px; 
+        bottom: 20px; 
+       
+    }
+    .titre-legend{
+        border-radius: 30px; 
+        background-color: rgb(252, 241, 255);
+        color: black; 
+        border: 1px solid black;
+        padding: 9px;
+      
+    }
+    .titre-form{
+        text-align: center;
+    }
+body {
+    position: relative;
+}
+
+a {
+    text-decoration: none; 
+    display: block; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    position: sticky;
+    top: 0; 
+    z-index: 100; 
+}
+
+

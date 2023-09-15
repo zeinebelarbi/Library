@@ -1,0 +1,92 @@
+.cover {
+    width: 1845px;
+    height: 550px;
+}
+.cover-1{
+    width: 100px;
+    height:  120px;   
+}
+.body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.table-container {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 14px;
+    border: 1px solid black;  
+    border-collapse: collapse;
+}
+td:nth-child(3) {
+    color: green; 
+    width:8%;
+    border: 1px solid black;  
+    border-collapse: collapse;
+}
+td:nth-child(4) {
+    width:5%;
+    border: 1px solid black;  
+    border-collapse: collapse;
+}
+td.indisponible {
+    color: red;
+    border: 1px solid black; 
+    border-collapse: collapse; 
+}
+
+tr:nth-child(2n){
+    background-color:   rgb(255, 245, 225);
+    border: 1px solid black;  
+}
+
+td p{
+
+    font-size: 17px; 
+    color: rgb(210, 30, 60);
+    padding: 10px;
+    
+}
+
+.texte-barre {
+    text-decoration: line-through;
+    color: rgb(105, 33, 45);
+}
+.button {
+    display: block; 
+    width: fit-content; 
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    transition-duration:  0.5s; 
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(89, 139, 9);
+}
+th:first-child, td:first-child {
+    border-right: 1px solid black;
+ 
+}

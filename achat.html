@@ -1,0 +1,49 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<a href="index.html">Consultez nos livres</a>
+<section>
+    <h2 class="titre-form">Pour acheter un Livre :</h2>
+    <form>
+      <fieldset>
+        <legend class="titre-legend" >Formulaire d'achat</legend>
+        <div class="float-left">
+          <label for="id_nom">Nom :</label>
+          <input type="text" name="nom" id="id_nom" size="50px"><br><br>
+
+          <label for="id_prenom">Prenom :</label>
+          <input type="text" name="prenom" id="id_prenom" size="50%"><br><br>
+
+          <label for="id_num">Numéro de la Carte Visa :</label>
+          <input type="text" name="num" id="id_num" size="50%"><br><br>
+
+
+        </div>
+        
+        <div class="float-left">
+          <label for="id_date_expiration">Date d'expiration de la carte</label>
+          <input type="date" name="date_expiration" id="id_date_expiration"><br><br>
+          <label for="livreDropDown">Choissiez un livre: </label>
+          <select id="livreDropDown" name="livreId">
+            <option value="0">Les gratitudes</option>
+            <option value="1">Une fille comme elle</option>
+            <option value="2">Une évidence</option>
+            <option value="3">Notre dame de Paris</option>
+          </select><br><br>
+
+          <label for="id_nombre_copies">Nombre de copies à acheter</label><br>
+          <input type="radio" id="Btn1" name="nombre_copies" value="1" />
+          <label for="Btn1">1</label>
+          <input type="radio" id="Btn2" name="nombre_copies" value="2" />
+          <label for="Btn2">2</label>
+          <input type="radio" id="Btn3" name="nombre_copies" value="3" />
+          <label for="Btn3">3</label><br><br>
+        </div>
+
+        <br>
+        <input class="button-submit" type="submit" value="Envoyer">
+      </fieldset>
+    </form>
+  </section>
+</html>
